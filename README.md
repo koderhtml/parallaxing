@@ -3,7 +3,7 @@
 It is responsive and works on all devices. 
 
 ## Demo
-[Here](http://koderhtml.cz/parallaxing/)
+[For demo click here](http://koderhtml.cz/parallaxing/)
 
 ## Download
 Get the [minified](https://raw.githubusercontent.com/koderhtml/parallaxing/master/parallaxing.min.js) version or the [source](https://raw.githubusercontent.com/koderhtml/parallaxing/master/parallaxing.js) here.
