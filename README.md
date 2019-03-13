@@ -7,7 +7,12 @@
 Get the [minified](https://raw.githubusercontent.com/koderhtml/parallaxing/master/parallaxing.min.js) version or the [source](https://raw.githubusercontent.com/koderhtml/parallaxing/master/parallaxing.js) here.
 
 ## How to use? 
+Start by including this plugin after jQuery. Then use data-atributtes to load parallaxing efect to your element.
 
+``` html
+<div style="height:150px;width:100%;" data-parallaxing="" data-parallaxing-img="paralax.jpg"></div>
+   
+```
 ## License
 The MIT License (MIT)
 Copyright © 2019 Bc. Martin Tesař <m.tesar@koderhtml.cz>
