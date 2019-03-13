@@ -4,7 +4,7 @@
 ## Demo
 
 ## Download
-Get the [minified](https://raw.github.com/koderhtml/parallaxing/blob/master/parallaxing.min.js) version or the [source](https://raw.github.com/koderhtml/parallaxing/blob/master/parallaxing.js) here.
+Get the [minified](https://raw.githubusercontent.com/koderhtml/parallaxing/master/parallaxing.min.js) version or the [source](https://raw.githubusercontent.com/koderhtml/parallaxing/master/parallaxing.js) here.
 
 ## How to use? 
 
