@@ -11,8 +11,17 @@ Start by including this plugin after jQuery. Then use data-atributtes to load pa
 
 ``` html
 <div style="height:150px;width:100%;" data-parallaxing="" data-parallaxing-img="paralax.jpg"></div>
-   
+
 ```
+
+As you can see above you need to set data-parallaxing="" and data-parallaxing-img="paralax.jpg" and that is all. But to make it little bit better you can use more attributes.
+
+All available attributes:
+* `data-parallaxing`
+* `data-parallaxing-img`
+* `data-parallaxing-speed`
+* `data-parallaxing-bleed`
+
 ## License
 The MIT License (MIT)
 Copyright © 2019 Bc. Martin Tesař <m.tesar@koderhtml.cz>
