@@ -15,6 +15,11 @@ Start by including this plugin after jQuery. Then use data-atributtes to load pa
 
 ```
 
+or you can init it by jQuery but you will still need to set up `data-parallaxing-img` attribute for it to work.
+``` js
+$('.yourElementSelector').parallaxing();
+```
+
 As you can see above you need to set `data-parallaxing=""` and `data-parallaxing-img="background-image.jpg"` and that is all. But to make it little bit better you can use more attributes.
 
 All available attributes:
