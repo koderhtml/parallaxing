@@ -14,15 +14,14 @@ Start by including this plugin after jQuery. Then use data-atributtes to load pa
 <div style="height:150px;width:100%;" data-parallaxing="" data-parallaxing-img="background-image.jpg"></div>
 
 ```
-
-or you can init it by jQuery but you will still need to set up `data-parallaxing-img` attribute for it to work.
+As you can see above you need to set `data-parallaxing=""` and `data-parallaxing-img="background-image.jpg"` and that is all. 
+Or you can init it by jQuery but you will still need to set up `data-parallaxing-img` attribute for it to work.
 ``` js
 $('.yourElementSelector').parallaxing();
 ```
+But to make it little bit better you can use more attributes.
 
-As you can see above you need to set `data-parallaxing=""` and `data-parallaxing-img="background-image.jpg"` and that is all. But to make it little bit better you can use more attributes.
-
-All available attributes:
+## All available attributes:
 * `data-parallaxing`
 * `data-parallaxing-img`
 * `data-parallaxing-speed`
