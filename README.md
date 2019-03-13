@@ -1,6 +1,6 @@
 # Parallaxing
 ### A jQuery plugin for creating parallax backgrounds.
-It is responsive and works on all devices. 
+Fully responsive and works on all devices. Easy to use. 
 
 ## Demo
 [For demo click here](http://koderhtml.cz/parallaxing/)
