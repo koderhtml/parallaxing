@@ -1,5 +1,6 @@
 # Parallaxing
 ### A jQuery plugin for creating parallax backgrounds.
+It is responsive and works on all devices. 
 
 ## Demo
 
@@ -10,17 +11,35 @@ Get the [minified](https://raw.githubusercontent.com/koderhtml/parallaxing/maste
 Start by including this plugin after jQuery. Then use data-atributtes to load parallaxing efect to your element.
 
 ``` html
-<div style="height:150px;width:100%;" data-parallaxing="" data-parallaxing-img="paralax.jpg"></div>
+<div style="height:150px;width:100%;" data-parallaxing="" data-parallaxing-img="background-image.jpg"></div>
 
 ```
 
-As you can see above you need to set data-parallaxing="" and data-parallaxing-img="paralax.jpg" and that is all. But to make it little bit better you can use more attributes.
+As you can see above you need to set `data-parallaxing=""` and `data-parallaxing-img="background-image.jpg"` and that is all. But to make it little bit better you can use more attributes.
 
 All available attributes:
 * `data-parallaxing`
 * `data-parallaxing-img`
 * `data-parallaxing-speed`
 * `data-parallaxing-bleed`
+
+#### data-parallaxing-img
+To get this plugin work properly you need to allways set this with full path to your image that you want to use.
+Like this: `data-parallaxing-img="/path/to/image/background-image.jpg"` 
+
+#### data-parallaxing-speed
+Setting this from 0-1 you will get the image follow your parralax window but slower. 1 means it will flow with the content and 0 means the image will be fixed on position. Default is 0. I would reccomend 0.2.
+
+#### data-parallaxing-bleed
+This plugin is based on scrolling and sometimes when your page is more complex it could result in this pluggin underflowing data-parallaxing-bleed causes an overlap and can be used to fix this. `Default is 0. But i would reccomend to use 50.` It means that parallaxing background will `overlap 50px on top and 50px on bottom`. So `you would need to set background` collor for your `elements above and byond` your parallaxing element `to hide that overlap`.
+
+## Destroy
+To destroy use function parallaxingDestroy() on your element.
+
+Like this: 
+``` js
+$('.yourElementSelector').parallaxingDestroy();
+```
 
 ## License
 The MIT License (MIT)
