@@ -1,6 +1,13 @@
 # Parallaxing
 ### A jQuery plugin for creating parallax backgrounds.
 
+## Demo
+
+## Download
+Get the [minified](https://raw.github.com/hwthorn/parallaxify/master/jquery.parallaxify.min.js) version or the [source](https://raw.github.com/hwthorn/parallaxify/master/jquery.parallaxify.js) here.
+
+## How to use? 
+
 ## License
 The MIT License (MIT)
 Copyright © 2019 Bc. Martin Tesař <m.tesar@koderhtml.cz>
